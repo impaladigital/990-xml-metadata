@@ -402,7 +402,8 @@ IRS990,part_0,FALSE,part_0,503,Orgnztn49471NtPFInd,/IRS990/Organization4947a1Not
 IRS990,part_0,FALSE,part_0,514,Orgnztn501c3Ind,/IRS990/Organization501c3Ind,CheckboxType,String(length=1),I,Indicates a 501(c)(3) organization,2013,
 IRS990,part_0,FALSE,part_0,293,Orgnztn501cInd,/IRS990/Organization501cInd,,Text,I,Indicates a 501(c) organization,2013,
 IRS990,part_0,FALSE,part_0,238,Orgnztn527Ind,/IRS990/Organization527Ind,CheckboxType,String(length=1),I,Indicates a 527 organization,2013,
-IRS990,part_x,FALSE,part_x,468,OrgnztnFllwsSFAS117Ind,/IRS990/OrganizationFollowsSFAS117Ind,CheckboxType,String(length=1),Part X,"Organizations that follow SFAS 117, check here",2013,
+IRS990,part_x,FALSE,part_x,468,OrgnztnFllwsSFAS117Ind,/IRS990/OrganizationFollowsSFAS117Ind,CheckboxType,String(length=1),Part X,"Organizations that follow SFAS 117, check here",2013,2019
+IRS990,part_x,FALSE,part_x,468,OrgnztnFllwsSFAS117Ind,/IRS990/OrganizationFollowsFASB117Ind,CheckboxType,String(length=1),Part X,"Organizations that follow SFAS 117, check here",2020,
 IRS990,part_x,FALSE,part_x,542,OthNtsLnsRcvblNt_BOYAmt,/IRS990/OthNotesLoansReceivableNetGrp/BOYAmt,USAmountType,BigInteger,Part X Line 7; Part X Column (A),Other notes and loans receivable net; Beginnning of year,2013,
 IRS990,part_x,FALSE,part_x,243,OthNtsLnsRcvblNt_EOYAmt,/IRS990/OthNotesLoansReceivableNetGrp/EOYAmt,USAmountType,BigInteger,Part X Line 7; Part X Column (B),Other notes and loans receivable net; Ending of year,2013,
 IRS990,part_x,FALSE,part_x,517,OthrAsstsTtl_BOYAmt,/IRS990/OtherAssetsTotalGrp/BOYAmt,USAmountType,BigInteger,Part X Line 15; Part X Column (A),Other assets; Beginnning of year,2013,
@@ -624,8 +625,10 @@ IRS990,part_0,FALSE,part_0,209,USAddrss_SttAbbrvtnCd,/IRS990/USAddress/StateAbbr
 IRS990,part_0,FALSE,part_0,342,USAddrss_ZIPCd,/IRS990/USAddress/ZIPCd,ZIPCodeType,String(length=15),F,Address of principal officer - US; ZIP code,2014,
 IRS990,part_0,FALSE,part_0,142,USAddrss_ZIPCd,/IRS990/USAddress/ZIPCode,ZIPCodeType,String(length=15),F,Address of principal officer - US; ZIP code,2013,2013
 IRS990,part_v,FALSE,part_v,110,UnrltdBsIncmOvrLmtInd,/IRS990/UnrelatedBusIncmOverLimitInd,BooleanType,String(length=5),Part V Line 3a,Unrelated business income?,2013,
-IRS990,part_x,FALSE,part_x,285,UnrstrctdNtAssts_BOYAmt,/IRS990/UnrestrictedNetAssetsGrp/BOYAmt,USAmountType,BigInteger,Part X Line 27; Part X Column (A),Unrestricted net assets; Beginnning of year,2013,
-IRS990,part_x,FALSE,part_x,596,UnrstrctdNtAssts_EOYAmt,/IRS990/UnrestrictedNetAssetsGrp/EOYAmt,USAmountType,BigInteger,Part X Line 27; Part X Column (B),Unrestricted net assets; Ending of year,2013,
+IRS990,part_x,FALSE,part_x,285,UnrstrctdNtAssts_BOYAmt,/IRS990/UnrestrictedNetAssetsGrp/BOYAmt,USAmountType,BigInteger,Part X Line 27; Part X Column (A),Unrestricted net assets; Beginnning of year,2013,2019
+IRS990,part_x,FALSE,part_x,596,UnrstrctdNtAssts_EOYAmt,/IRS990/UnrestrictedNetAssetsGrp/EOYAmt,USAmountType,BigInteger,Part X Line 27; Part X Column (B),Unrestricted net assets; Ending of year,2013,2019
+IRS990,part_x,FALSE,part_x,285,UnrstrctdNtAssts_BOYAmt,/IRS990/NoDonorRestrictionNetAssetsGrp/BOYAmt,USAmountType,BigInteger,Part X Line 27; Part X Column (A),Unrestricted net assets; Beginnning of year,2020,
+IRS990,part_x,FALSE,part_x,596,UnrstrctdNtAssts_EOYAmt,/IRS990/NoDonorRestrictionNetAssetsGrp/EOYAmt,USAmountType,BigInteger,Part X Line 27; Part X Column (B),Unrestricted net assets; Ending of year,2020,
 IRS990,part_x,FALSE,part_x,146,UnscrdNtsLnsPybl_BOYAmt,/IRS990/UnsecuredNotesLoansPayableGrp/BOYAmt,USAmountType,BigInteger,Part X Line 24; Part X Column (A),Unsecured notes and loans payable; Beginnning of year,2013,
 IRS990,part_x,FALSE,part_x,25,UnscrdNtsLnsPybl_EOYAmt,/IRS990/UnsecuredNotesLoansPayableGrp/EOYAmt,USAmountType,BigInteger,Part X Line 24; Part X Column (B),Unsecured notes and loans payable; Ending of year,2013,
 IRS990,part_vi,FALSE,part_vi,284,UpnRqstInd,/IRS990/UponRequestInd,CheckboxType,String(length=1),Part VI Section C Line 18,Upon request,2013,
@@ -1089,7 +1092,8 @@ IRS990PF,pf_part_ii,FALSE,pf_part_ii,741,MrtggLnsEOYFMVAmt,/IRS990PF/Form990PFBa
 IRS990PF,pf_part_ii,FALSE,pf_part_ii,704,MrtggsAndNtsPyblBOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/MortgagesAndNotesPayableBOYAmt,USAmountType,BigInteger,Part II Line 21(a),Mortgages and Notes Payable - Beginning of Year - Book Value,2013,
 IRS990PF,pf_part_ii,FALSE,pf_part_ii,529,MrtggsAndNtsPyblEOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/MortgagesAndNotesPayableEOYAmt,,Text,Part II Line 21(b),Mortgages and Notes Payable - End of Year - Book Value,2013,
 IRS990PF,pf_part_ii,FALSE,pf_part_ii,55,OrgDsNtFllwSFAS117Ind,/IRS990PF/Form990PFBalanceSheetsGrp/OrgDoesNotFollowSFAS117Ind,CheckboxType,String(length=1),,Organizations That Do Not Follow SFAS 117,2013,
-IRS990PF,pf_part_ii,FALSE,pf_part_ii,250,OrgnztnFllwsSFAS117Ind,/IRS990PF/Form990PFBalanceSheetsGrp/OrganizationFollowsSFAS117Ind,CheckboxType,String(length=1),,Organizations That Follow SFAS 117,2013,
+IRS990PF,pf_part_ii,FALSE,pf_part_ii,250,OrgnztnFllwsSFAS117Ind,/IRS990PF/Form990PFBalanceSheetsGrp/OrganizationFollowsSFAS117Ind,CheckboxType,String(length=1),,Organizations That Follow SFAS 117,2013,2019
+IRS990PF,pf_part_ii,FALSE,pf_part_ii,250,OrgnztnFllwsSFAS117Ind,/IRS990PF/Form990PFBalanceSheetsGrp/OrganizationFollowsFASB117Ind,CheckboxType,String(length=1),,Organizations That Follow SFAS 117,2020
 IRS990PF,pf_part_ii,FALSE,pf_part_ii,763,OthrAsstsBOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/OtherAssetsBOYAmt,,Text,Part II Line 15(a),Other Assets - Beginning of Year - Book Value,2013,
 IRS990PF,pf_part_ii,FALSE,pf_part_ii,36,OthrAsstsEOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/OtherAssetsEOYAmt,,Text,Part II Line 15(b),Other Assets - End of Year - Book Value,2013,
 IRS990PF,pf_part_ii,FALSE,pf_part_ii,791,OthrAsstsEOYFMVAmt,/IRS990PF/Form990PFBalanceSheetsGrp/OtherAssetsEOYFMVAmt,,Text,Part II Line 15(c),Other Assets - End of Year - Fair Market Value,2013,
@@ -1135,8 +1139,12 @@ IRS990PF,pf_part_ii,FALSE,pf_part_ii,707,TtlLbltsNtAstEOYAmt,/IRS990PF/Form990PF
 IRS990PF,pf_part_ii,FALSE,pf_part_ii,154,USGvrnmntOblgtnsBOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/USGovernmentObligationsBOYAmt,USAmountType,BigInteger,Part II Line 10a(a),"Investments, Government Obligations - Beginning of Year - Book Value",2013,
 IRS990PF,pf_part_ii,FALSE,pf_part_ii,116,USGvrnmntOblgtnsEOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/USGovernmentObligationsEOYAmt,,Text,Part II Line 10a(b),"Investments, Government Obligations - End of Year - Book Value",2013,
 IRS990PF,pf_part_ii,FALSE,pf_part_ii,368,USGvtOblgtnsEOYFMVAmt,/IRS990PF/Form990PFBalanceSheetsGrp/USGovtObligationsEOYFMVAmt,USAmountType,BigInteger,Part II Line 10a(c),"Investments, Government Obligations - End of Year - Fair Market Value",2013,
-IRS990PF,pf_part_ii,FALSE,pf_part_ii,112,UnrstrctdBOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/UnrestrictedBOYAmt,USAmountType,BigInteger,Part II Line 24(a),Unrestricted - Beginning of Year - Book Value,2013,
-IRS990PF,pf_part_ii,FALSE,pf_part_ii,629,UnrstrctdEOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/UnrestrictedEOYAmt,USAmountType,BigInteger,Part II Line 24(b),Unrestricted - End of Year - Book Value,2013,
+IRS990PF,pf_part_ii,FALSE,pf_part_ii,112,UnrstrctdBOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/UnrestrictedBOYAmt,USAmountType,BigInteger,Part II Line 24(a),Unrestricted - Beginning of Year - Book Value,2013,2019
+IRS990PF,pf_part_ii,FALSE,pf_part_ii,629,UnrstrctdEOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/UnrestrictedEOYAmt,USAmountType,BigInteger,Part II Line 24(b),Unrestricted - End of Year - Book Value,2013,2019
+IRS990PF,pf_part_ii,FALSE,pf_part_ii,112,UnrstrctdBOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/NoDonorRstrNetAssestsBOYAmt,USAmountType,BigInteger,Part II Line 24(a),Unrestricted - Beginning of Year - Book Value,2020,
+IRS990PF,pf_part_ii,FALSE,pf_part_ii,629,UnrstrctdEOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/NoDonorRstrNetAssestsEOYAmt,USAmountType,BigInteger,Part II Line 24(b),Unrestricted - End of Year - Book Value,2020,
+IRS990PF,pf_part_ii,FALSE,pf_part_ii,629,RstrctdBOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/DonorRstrNetAssetsBOYAmt,USAmountType,BigInteger,Part II Line 25(a),Restricted - Beginning of Year - Book Value,2020,
+IRS990PF,pf_part_ii,FALSE,pf_part_ii,629,RstrctdEOYAmt,/IRS990PF/Form990PFBalanceSheetsGrp/DonorRstrNetAssetsEOYAmt,USAmountType,BigInteger,Part II Line 25(b),Restricted - End of Year - Book Value,2020,
 IRS990PF,pf_part_0,FALSE,pf_part_0,122,IntlRtrnFrmrPbChrtyInd,/IRS990PF/InitialReturnFormerPubChrtyInd,CheckboxType,String(length=1),G,Indicates this is an initial return of a former public charity,2013,
 IRS990PF,pf_part_0,FALSE,pf_part_0,231,IntlRtrnInd,/IRS990PF/InitialReturnInd,CheckboxType,String(length=1),G,Indicates this is an initial return,2013,
 IRS990PF,pf_part_0,FALSE,pf_part_0,141,MthdOfAccntngAccrlInd,/IRS990PF/MethodOfAccountingAccrualInd,CheckboxType,String(length=1),J,Method of accounting - Accrual,2013,
